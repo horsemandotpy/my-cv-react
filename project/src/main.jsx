@@ -8,6 +8,7 @@ import BussinessCard from "./components/BussinessCard/BussinessCard.jsx";
 import ContentCard from "./components/ContentCard/ContentCard.jsx";
 import HomeContent from "./components/HomeContent/HomeContent.jsx";
 import Resume from "./components/Resume/Resume.jsx";
+import Portfolio from "./components/Portfolio/Portfolio.jsx";
 
 const router = createBrowserRouter([
   {
@@ -20,8 +21,7 @@ const router = createBrowserRouter([
         children: [
           { path: "/", element: <HomeContent /> },
           { path: "/resume", element: <Resume /> },
-          { path: "/profile", element: <p>sansjkdasadjkaj</p> },
-          { path: "/profile", element: <p>sansjkdasadjkaj</p> },
+          { path: "/portfolio", element: <Portfolio /> },
         ],
       },
     ],
